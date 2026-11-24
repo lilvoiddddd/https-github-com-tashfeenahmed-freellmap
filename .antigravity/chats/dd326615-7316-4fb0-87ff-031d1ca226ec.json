@@ -3,6 +3,31 @@
   "name": "https://github.com/tashfeenahmed/freellmapi.git bagaimana cara running ini file",
   "createdAt": "2026-11-24T19:10:44.747Z",
   "filename": "dd326615-7316-4fb0-87ff-031d1ca226ec.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "0c9e44ec-9c2c-41f4-b21e-6ea407596fdc",
+      "role": "user",
+      "content": "https://github.com/tashfeenahmed/freellmapi.git bagaimana cara runing ini file nya saya simpan di acer c",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-24T19:14:08.321Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "2a9e7838-711f-4f3d-a8e9-e3d83ba74d68",
+      "role": "agent",
+      "content": "error: Your current account is not eligible for Gemini Code Assist for individuals because it is not currently available in your location.\nAGY_ERROR: {\"short_error\":\"PERMISSION_DENIED (code 403): Your current account is not eligible for Gemini Code Assist for individuals because it is not currently available in your location.\",\"status\":\"PERMISSION_DENIED\",\"error_code\":403,\"code_kind\":\"http\",\"retryable\":false,\"error_id\":\"18d54c1d-9e66-44bc-8c0c-068f34dcd9b6-1-1008\"}\nYour current account is not eligible for Gemini Code Assist for individuals because it is not currently available in your location.",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "0c9e44ec-9c2c-41f4-b21e-6ea407596fdc",
+      "created_at": "2026-11-24T19:14:11.289Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
